@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1518162432590215190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1518162432590215191}
+  - component: {fileID: 1518162432590215192}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1518162432590215191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518162432590215190}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1518162432590215192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518162432590215190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dc8527062ed02144a6065c6c47004ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Start
+    clip: {fileID: 8300000, guid: f1d94659b20f1094290a2568faaddb48, type: 3}
+    volume: 0.5
+    pitch: 1
+    group: {fileID: 24300002, guid: 3fb70a6e5f1d8a247bd051019a9a9baa, type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: de96ea26a2fa3f648a79ae7d27b3b9a2, type: 3}
+    volume: 0.5
+    pitch: 1
+    group: {fileID: 24300002, guid: 3fb70a6e5f1d8a247bd051019a9a9baa, type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: trash
+    clip: {fileID: 8300000, guid: 7d3d964aea11a464ea2bbaa6c3d4a67c, type: 3}
+    volume: 0.9
+    pitch: 1
+    group: {fileID: 24300002, guid: 3fb70a6e5f1d8a247bd051019a9a9baa, type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: Win
+    clip: {fileID: 8300000, guid: 3d2c654b0a65bee418f188b0cfef6003, type: 3}
+    volume: 0.5
+    pitch: 1
+    group: {fileID: 24300002, guid: 3fb70a6e5f1d8a247bd051019a9a9baa, type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: Claw
+    clip: {fileID: 8300000, guid: d082480dc2f36e64e884a2770012ce26, type: 3}
+    volume: 0.5
+    pitch: 1
+    group: {fileID: 24300002, guid: 3fb70a6e5f1d8a247bd051019a9a9baa, type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: Down
+    clip: {fileID: 8300000, guid: 96ad313534e892248a48b53bdcc9f2f7, type: 3}
+    volume: 0.5
+    pitch: 1
+    group: {fileID: 24300002, guid: 3fb70a6e5f1d8a247bd051019a9a9baa, type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: Up
+    clip: {fileID: 8300000, guid: 0c0152a7ec0dfdb4fb5ff22520cc1eed, type: 3}
+    volume: 0.5
+    pitch: 1
+    group: {fileID: 24300002, guid: 3fb70a6e5f1d8a247bd051019a9a9baa, type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: Song
+    clip: {fileID: 8300000, guid: 9b78d5fe315626740a8fb5081e55aac8, type: 3}
+    volume: 0.5
+    pitch: 1
+    group: {fileID: 24300002, guid: 3fb70a6e5f1d8a247bd051019a9a9baa, type: 2}
+    loop: 1
+    source: {fileID: 0}
